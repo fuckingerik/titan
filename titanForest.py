@@ -62,7 +62,7 @@ class exploreData:
     def extractTrainData(self):
         for s in self.stringList[1:]:
 #            x_train.append([s[2],s[4],s[5],s[6],s[7],s[9],s[11],s[10],s[3]])
-            self.x_train.append([s[2]])
+            self.x_train.append([s[2],s[9]])
             self.y_train.append(int(s[1]))
 
     # Exctracts usefull features from the raw test data.
